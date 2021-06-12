@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css" />    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico.ico" />
+    <title>Calculate BMI</title>
+
+    <div>
+        <ul>        
+            <li><a href="index.html"><i class="fa fa-fw fa-user"></i>Profile</i></a></li>
+            <li><a class="active" href="calculator.html"><i class="fa fa-calculator"> BMI Calculator</i></a></li>
+        </ul>
+    </div>
+
+</head>
+
+<body>
+    <h1 style="text-align: center;"> BMI Calculator</h1>
+
+    <p style="text-align: center;">Please enter your height and weight to calculate your Body Mass Index</p><br><br>
+    
+    <div id="calc">
+    <a>Enter Your Weight : <input type="text" value="" id="weight" placeholder="Enter your weight in kilogram"></a> kg <br><br>
+    <a>Enter Your Height : <input type="text" value="" id="height" placeholder="Enter your weight in meter"></a>  m <br><br>    
+    <input id="button" type="button" value="Calculate" onclick="myFunction()">  <br><br>
+    </div>
+    <div id="display"></div>
+
+    <div>
+        <br>
+        <img src="assets/img/bmi.jpg" alt="">
+    </div>
+
+    
+    <script src="assets/js/calculate.js"></script>
+
+</body>
+</html>
